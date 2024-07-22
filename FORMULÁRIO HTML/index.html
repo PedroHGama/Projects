@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Imagens/20943446.jpg" type="image/x-icon">
+    <title>Web Sugetão</title>
+</head>
+<body style="background-color: white; text-align: center;">
+    <h1 style="font-family: Arial, sans-serif; color: #2c3e50;">Formulário de Sugestão</h1>
+    <form style="display: inline-block; text-align: left; font-family: Arial, sans-serif; background-color: #A8A8A8; color: white; border: 1px solid #bdc3c7; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        <table>
+            <tr>
+                <td colspan="2" style="text-align: center; font-size: 1.2em; color: #2c3e50;"><b>Informações Pessoais</b></td>
+            </tr>
+            <tr>
+                <td><label for="name">Nome:</label></td>
+                <td><input type="text" id="name" name="name" size="30" style="background-color: white; color: black;"></td>
+            </tr>
+            <tr>
+                <td><label for="cpf">CPF:</label></td>
+                <td><input type="text" id="cpf" name="cpf" size="30" style="background-color: white; color: black;"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center; font-size: 1.2em; color: #2c3e50;"><br><b>Avaliação</b></td>
+            </tr>
+            <tr>
+                <td colspan="2"><span>Que nota você nos daria?</span></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label><input type="radio" name="rating" value="1"> 1</label>
+                    <label><input type="radio" name="rating" value="2"> 2</label>
+                    <label><input type="radio" name="rating" value="3"> 3</label>
+                    <label><input type="radio" name="rating" value="4"> 4</label>
+                    <label><input type="radio" name="rating" value="5"> 5</label>
+                    <label><input type="radio" name="rating" value="6"> 6</label>
+                    <label><input type="radio" name="rating" value="7"> 7</label>
+                    <label><input type="radio" name="rating" value="8"> 8</label>
+                    <label><input type="radio" name="rating" value="9"> 9</label>
+                    <label><input type="radio" name="rating" value="10"> 10</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center; font-size: 1.2em; color: #2c3e50;"><br><b>Comentários</b></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="comments">Deixe seus comentários:</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><textarea id="comments" name="comments" rows="4" cols="50" style="background-color: white; color: black;"></textarea></td>
+            </tr>
+            <tr>
+                <br><td colspan="2" style="text-align: center; font-size: 1.2em; color: #2c3e50;"><br><b>Anexe uma foto</b></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="file-upload">Selecionar Arquivo:</label></td>
+            </tr>
+            <br>
+            <tr>
+                <td colspan="2"><input type="file" id="file-upload" name="file-upload" style="background-color: white; color: black;"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center; font-size: 1.2em; color: #2c3e50;"><br><b>Cargo</b></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="position">Seu cargo:</label></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <select id="position" name="position" style="background-color: white; color: black;">
+                        <option value="Cliente">Cliente</option>
+                        <option value="Funcionario">Funcionário</option>
+                        <option value="Chefe">Chefe</option>
+                        <option value="Diretor">Diretor</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <br><br><button type="submit" style="background-color: #2980b9; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">Salvar</button>
+                    <button type="reset" style="background-color: #e74c3c; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; margin-left: 10px;">Limpar</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

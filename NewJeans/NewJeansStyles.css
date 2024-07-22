@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #1b2f55;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Add relative positioning */
+}
+
+header h1 {
+    font-family: 'Courier New', Courier, monospace; /* Change the font of the site title */
+}
+
+header .social-links {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+header .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+header .social-links img {
+    width: 24px;
+    height: 24px;
+}
+
+nav {
+    background-color: #284377;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    border: 1px solid #fff; /* Add border */
+    padding: 5px; /* Add padding for better appearance */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    margin: 20px;
+}
+
+article {
+    flex: 3;
+    padding: 20px;
+    background-color: #fff;
+    margin-right: 20px;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+}
+
+footer {
+    background-color: #284377;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #7e93ba;
+    color: #fff;
+}
+
+td a {
+    color: #7e93ba;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+td[rowspan] {
+    vertical-align: middle;
+}
+
+/* Estilos para telas menores */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px; /* Reduz o tamanho da fonte do título */
+    }
+
+    header .social-links {
+        display: none; /* Esconder os links sociais */
+    }
+
+    nav ul li {
+        display: block; /* Alterar os itens de menu para exibição de bloco */
+        margin: 5px 0;
+    }
+
+    article {
+        margin-right: 0; /* Remove a margem direita para o artigo */
+    }
+
+    table {
+        font-size: 14px; /* Reduzir o tamanho da fonte da tabela */
+    }
+}
+
+/* Outros estilos responsivos podem ser adicionados conforme necessário */
+
